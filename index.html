@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/regular.min.css">
+   
+</head>
+<body class="bg-gray-100">
+  <nav class="bg-black text-white gap-7 h-15 flex items-center">
+     
+    <div class="hover:border border-white">
+           <img class="h-15" src="https://mms.businesswire.com/media/20181015006009/en/3799/23/logo_white_.jpg" alt="">
+    </div>
+    <br>
+    <div class="flex flex-col hover:border border-white items-center">
+      <p1 class="text-center">Delivering to Assandh 132039</p1>
+      <p2 class="text-center"><i class="fa-solid fa-location-dot"></i> <span class="font-bold"> Update location</span></p2>
+
+    </div>
+    <br>
+    <div class="flex items-center hover:border">
+      <select class="h-10 w-10" name="All" id="All">
+        <option value="">Amazon</option>
+      </select>
+      <input class="bg-white text-black w-65" type="" name="" id="" placeholder="search amazon.in">
+        <i class="fa-solid fa-magnifying-glass bg-amber-400 p-1"></i>
+    </div> <br>
+    <div class="flex hover:border p-2">
+      <img class="h-7 w-5" src="data:image/webp;base64,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" alt="">
+         <select class="outline-none bg-gray-800" name="" id="">
+          <option value="">EN</option>
+          <option value="">Hindi</option>
+         </select>
+    </div> <br>
+    <div class="flex p-10">
+      <div class="flex hover:border p-2">
+        <h1 class="text[12px]"><a href="">hello,sign in <br> <span class="font-bold"> & Lists</span></a></h1></div>
+      </div> <br>
+    </div>
+    <div class="flex hover:border p-5 text items-center">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <h1><a href="">Cart</a></h1>
+
+    </div>
+  </nav>
+   
+    <!-- Nav -->
+    <nav class="bg-gray-800  h-10 text-white flex gap-10">
+      <div class="ml-10 flex hover:backdrop:-1 w-30px ">
+      <div class=" gap-15 flex">
+        <div class="hover:border">All</div>
+       <div class="hover:border">
+        <h1>Fresh</h1>
+       </div>
+       <div class="hover:border">
+        <h1>MX Player</h1>
+       </div>
+       <div class="hover:border">
+        sell
+       </div>
+       <div class="hover:border">
+        Bestsellers
+       </div>
+       <div class="hover:border">
+        Today's Dreals
+       </div>
+       <div class="hover:border">Fashion</div>
+       <div class="hover:border">Mobiles</div>
+       <div class="hover:border">Customer Service</div>
+       <div class="hover:border"> New Releases</div>
+      </div>
+      </div>
+    </nav>
+  
+
+  <!-- Hero -->
+  <section class="bg-yellow-200 text-center py-10">
+    <h2 class="text-3xl font-bold">Welcome to Amazon Clone</h2>
+    <p class="mt-2">Shop deals on electronics, fashion, and more</p>
+  </section>
+ 
+  <!-- Products -->
+  <section class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61dFcpPdJkL._SY741_.jpg" class="h-70 " />
+      <h3 class="font-bold">jeans</h3>
+      <p class="text-green-600 font-semibold">$29.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/91ijNNmS5CL._SX679_.jpg">
+      <h3 class="font-bold">shocks</h3>
+      <p class="text-green-600 font-semibold">$49.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/41oX23YGi5L._SX522_.jpg" class="h-70" />
+      <h3 class="font-bold">woman jeans</h3>
+      <p class="text-green-600 font-semibold">$19.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61PHOMhPdCL._SY741_.jpg" class="h-70" />
+      <h3 class="font-bold">suit</h3>
+      <p class="text-green-600 font-semibold">$99.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+  </section>
+
+
+<!-- Products -->
+  <section class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/512VhNxlAgL._SX569_.jpg" class="h-70 " />
+      <h3 class="font-bold">traivel neck pillow</h3>
+      <p class="text-green-600 font-semibold">$29.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61o9VI3pC-L._SX679_.jpg">
+      <h3 class="font-bold">puma GYM bag</h3>
+      <p class="text-green-600 font-semibold">$49.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/71PenfVqjqL._SY575_.jpg" class="h-70" />
+      <h3 class="font-bold">Red tape man pull on clogs </h3>
+      <p class="text-green-600 font-semibold">$19.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61xxiBVDoaL._SY450_.jpg" class="h-70" />
+      <h3 class="font-bold">Cetaphil Gentle skin cleaner</h3>
+      <p class="text-green-600 font-semibold">$12.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+  </section>
+
+
+  
+ 
+  <div>
+    <h7 class="italic text-bold">Brands We're Loving </h7>
+    <div class="flex gap-3">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/Anni_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/Janasya_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/Lakme_364x500._CB775033440_.png" class="h-55 w-75">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/Allen_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+       <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/swadeshi_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+    </div>
+    <br>
+  </div>
+ <div class="flex gap-3">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/Sparx_New_1._CB774913315_.png" class="h-55 w-75" alt="">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/symbol_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/liberty_364x500._CB775033440_.png" class="h-55 w-75">
+      <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/lavie_sport_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+       <img src="https://m.media-amazon.com/images/G/31/IMG25/HolidayEdit/Unrec/dove_364x500._CB775033440_.png" class="h-55 w-75" alt="">
+ </div>
+   <br>
+   
+     <!-- Slider Container -->
+  <div class="relative w-full max-w-6xl mx-auto mt-10 overflow-hidden rounded-lg shadow-lg">
+
+    <!-- Slides -->
+    <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+      <img src="https://m.media-amazon.com/images/G/31/img23/Fashion/EOSS/Tophero/Unrec/PC/Footwear_1500x460._SX1500_QL85_FMpng_.png" class="w-full flex">
+      <img src="https://m.media-amazon.com/images/G/31/img23/Fashion/EOSS/Tophero/Unrec/PC/Beauty_1500x460._SX1500_QL85_FMpng_.png" class="w-full flex">
+      <img src="https://m.media-amazon.com/images/G/31/img23/Fashion/EOSS/Tophero/Unrec/PC/Watches_1500x460._SX1500_QL85_FMpng_.png" class="w-full flex">
+       <img src="https://m.media-amazon.com/images/G/31/img23/Fashion/EOSS/Tophero/Unrec/PC/Sunglasses_1500x460._SX1500_QL85_FMpng_.png" class="w-full flex">
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    const slider = document.getElementById("slider");
+    const totalSlides = slider.children.length;
+    let index = 0;
+
+    setInterval(() => {
+      index = (index + 1) % totalSlides;
+      slider.style.transform = `translateX(-${index * 100}%)`;
+    }, 3000); // 3 seconds
+  </script>
+     
+
+
+        <!-- Products -->
+  <section class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61q5CWbukpL._SX569_.jpg" class="h-70 " />
+      <h3 class="font-bold">Woman printed kurta</h3>
+      <p class="text-green-600 font-semibold">$29.10</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/61fKK+gqmYL._SX679_.jpg">
+      <h3 class="font-bold">babies sleepsuit</h3>
+      <p class="text-green-600 font-semibold">$42.19</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/51T42aZXalL._SX569_.jpg" class="h-70" />
+      <h3 class="font-bold">pure cotton suit</h3>
+      <p class="text-green-600 font-semibold">$19.90</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <img src="https://m.media-amazon.com/images/I/616xchp1ECL._SY741_.jpg" class="h-70" />
+      <h3 class="font-bold">Man's relaxed fit jeans</h3>
+      <p class="text-green-600 font-semibold">$47.99</p>
+      <button class="mt-3 w-full bg-yellow-400 hover:bg-yellow-500 py-2 rounded">
+        Add to Cart
+      </button>
+    </div>
+
+  </section>
+
+    <footer class="bg-[#232F3E] text-gray-300">
+      <div class=" h-15 text-align-center bg-gray-800 ">
+        <h3 class="text-center margin-1">Back to top</h3>
+      </div>
+  <!-- Top links -->
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+      
+      <div>
+        <h3 class="text-white font-semibold mb-3">Get to Know Us</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">About Amazon</a></li>
+          <li><a href="#" class="hover:underline">Careers</a></li>
+          <li><a href="#" class="hover:underline">Press Releases</a></li>
+          <li><a href="#" class="hover:underline">Amazon Science</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Make Money with Us</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Sell on Amazon</a></li>
+          <li><a href="#" class="hover:underline">Sell under Amazon Accelerator</a></li>
+          <li><a href="#" class="hover:underline">Protect and Build Your Brand</a></li>
+          <li><a href="#" class="hover:underline">Amazon Global Selling</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Amazon Payment Products</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Amazon Business Card</a></li>
+          <li><a href="#" class="hover:underline">Shop with Points</a></li>
+          <li><a href="#" class="hover:underline">Reload Your Balance</a></li>
+          <li><a href="#" class="hover:underline">Amazon Currency Converter</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Let Us Help You</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Amazon and COVID-19</a></li>
+          <li><a href="#" class="hover:underline">Your Account</a></li>
+          <li><a href="#" class="hover:underline">Your Orders</a></li>
+          <li><a href="#" class="hover:underline">Help</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="border-t border-gray-600"></div>
+
+  <!-- Bottom bar -->
+  <div class="bg-[#131A22]">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-400">
+      <div class="flex items-center space-x-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+             alt="Amazon" class="h-6 invert">
+        <span>© 2026 Amazon Clone</span>
+      </div>
+      <div class="flex space-x-4 mt-4 sm:mt-0">
+        <a href="#" class="hover:underline">Conditions of Use</a>
+        <a href="#" class="hover:underline">Privacy Notice</a>
+        <a href="#" class="hover:underline">Interest-Based Ads</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+   
+
+
+</body>
+</html>
